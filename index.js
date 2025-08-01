@@ -16,14 +16,9 @@ const __dirname = path.resolve();
 const allowedOrigins = [
   'http://localhost:5173',
   "https://auth-1-973s.onrender.com",
-<<<<<<< HEAD
-  "https://auth-1-973s.onrender.com/api/auth", // production
-                // local dev
-
-=======
+  "https://auth-1-973s.onrender.com/api/auth",
   "https://auth-1-973s.onrender.com/api/auth",
    "https://authenticationb.netlify.app"
->>>>>>> f74f83be14cc9161a17871f3d1aceff98fb738a8
 ];
 
 app.use(cors({
