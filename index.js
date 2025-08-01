@@ -18,7 +18,8 @@ const allowedOrigins = [
   "https://auth-1-973s.onrender.com",
   "https://auth-1-973s.onrender.com/api/auth",
   "https://auth-1-973s.onrender.com/api/auth",
-   "https://authenticationb.netlify.app"
+   "https://authenticationb.netlify.app",
+   "https://user-authentication-system-z1jz.onrender.com"
 ];
 
 app.use(cors({
